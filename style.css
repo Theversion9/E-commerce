@@ -179,3 +179,42 @@ footer{
 footer p{
     margin: 10px;
 }
+@media (max-width: 500px) {
+    #shop{
+        grid-template-columns: 1fr ;
+
+    }
+    #side{
+        display: none;
+    }
+    #navbar ul li a {
+        margin : 0px;
+        padding: 3px 10px;
+    }
+    header .title img {
+        margin-left: -1rem;
+        float: left;
+        width: 10vh;
+        top: 2rem;
+    left: 0rem;
+    }
+        
+    header .title_text {
+    font-size: 1em;
+    }
+    #tag_line {
+        font-size: 1rem;
+    }
+    header .title {
+        padding: 1em;
+    }
+    #offershop {
+        grid-template-columns: 1fr;
+    }
+    .offer img {
+        width: 50vw;
+    }
+    #navbar ul {
+        padding: 10px 8px;
+    }
+}
